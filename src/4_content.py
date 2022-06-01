@@ -2,7 +2,7 @@ import requests
 
 response = requests.get('https://api.github.com')
 print('response in bytes:\n\n', response.content)
-print('\n\nresponse as text:\n\n', response.text)
+print('\n\nresponse as text (unicode):\n\n', response.text)
 
 # optional
 response.encoding = 'utf-8'

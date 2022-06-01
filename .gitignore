@@ -9,6 +9,9 @@ __pycache__/
 # MacOS stuff
 .DS_Store
 
+# Project settings
+src/images
+
 # Distribution / packaging
 .Python
 build/
